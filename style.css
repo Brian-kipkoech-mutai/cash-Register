@@ -1,0 +1,88 @@
+ 
+ body{
+    font-size: 16px;
+    background-color: #444444;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100svh;
+ }
+ #change-due{
+    width: calc(100vw - 2em);
+    max-width: 500px;
+    background-color: #1d1d1d;
+    height: 35svh;
+    border-radius: 1em;
+    border:  1px solid #1d1d4444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #dfdede;
+    font-size: 1.2em;
+    justify-content: space-between;
+    padding: 1em;
+
+ }
+ #change-due p{
+   margin: 0;
+   padding: 0;
+   font-weight: bolder;
+ }
+ .ui{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    gap :1em
+    
+ }
+ #drawer{
+    height: 35svh;
+ }
+ #cash-container{
+   width: 100%;
+    
+    height: 3em;
+    padding: 0;
+ display: grid;
+ place-items: center;
+ }
+ #cash{
+    width: 60%;
+    height: 100%;
+    outline: none;
+    border-radius: 0.5em;
+    border: none;
+    background-color: #1d1d1d;
+    font-size: 1.2em;
+    padding-left: 0.5em;
+    color: #ffffff;
+    text-align: center;
+    
+
+
+    
+ }
+ #purchase-btn{
+    border-radius: 0.5em;
+    border: none;
+    background-color: #1d1d1d;
+    font-size: 1.2em;
+    padding-left: 0.5em;
+    color: #ffffff;
+    height: 3em; 
+    width: 60%;
+    align-self: center;
+    cursor: pointer;
+ }
+  #drawer{
+    text-align: center;
+  }
+  #drawer p{
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  }
